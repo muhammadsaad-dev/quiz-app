@@ -1,0 +1,31 @@
+.welcome-message {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-message {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.home-input,
+.home-select {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.error-message {
+  color: #ff4d4d;
+  font-weight: bold;
+  text-align: center;
+}
+
+.loading-message {
+  font-size: 1.5rem;
+  text-align: center;
+}

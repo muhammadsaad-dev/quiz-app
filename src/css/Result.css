@@ -1,0 +1,16 @@
+.result {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+}
+
+.result p {
+  font-size: 1.3rem;
+}
+
+.playagain-button {
+  margin-top: 20px;
+}

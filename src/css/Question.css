@@ -1,0 +1,25 @@
+.question-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 600px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.question {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.options label {
+  display: block;
+  margin: 10px 0;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.options input[type="radio"] {
+  margin-right: 10px;
+  cursor: pointer;
+}

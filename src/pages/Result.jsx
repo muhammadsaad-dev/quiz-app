@@ -12,7 +12,7 @@ function Result() {
         <p>
           You got {score} correct out of {quizData.length}
         </p>
-        <p>Percentage: {(score / quizData.length) * 100}%</p>
+        <p>Percentage: {Math.round((score / quizData.length) * 100)}%</p>
       </div>
       <button
         className="playagain-button"
